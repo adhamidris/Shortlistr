@@ -55,7 +55,7 @@ def tool_label(frame):
             details.append('Remote only')
         return title + ('\n' + ' · '.join(details) if details else '')
     if (provider == 'linkedin' and suffix == 'easy_apply') or (provider in {'greenhouse'} and suffix == 'apply_job'):
-        platform = {'linkedin': 'LinkedIn Easy Apply', 
+        platform = {'linkedin': 'LinkedIn Easy Apply',
                     'greenhouse': 'Greenhouse application'}[provider]
         action = args.get('action', 'inspect')
         verbs = {'inspect': ('📋', 'Inspecting'), 'fill': ('✍️', 'Filling'),
