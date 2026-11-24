@@ -1,0 +1,13 @@
+playwright==1.65.2
+mcp==1.30.0
+msal==1.39.0
+keyring==25.7.0
+websockets==15.0.1
+markdown-it-py==4.0.0
+httpx==0.28.1
+portalocker==3.2.0
+PyYAML==6.0.3
+tomli-w==1.2.0
+tzdata==2025.2
+pypdf==6.1.1
+psutil==7.1.3

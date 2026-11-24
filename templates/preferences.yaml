@@ -1,0 +1,34 @@
+{
+  "roles": {
+    "primary": [],
+    "adjacent": []
+  },
+  "seniority": {
+    "eligible": [],
+    "excluded_roles": []
+  },
+  "locations": {
+    "remote_worldwide": null,
+    "onsite_cities": [],
+    "relocation": null,
+    "time_zone_constraints": null
+  },
+  "employment": {
+    "types": [],
+    "salary_expectation": null,
+    "salary_is_hard_floor": false,
+    "currency": null
+  },
+  "dealbreakers": [],
+  "scoring": {
+    "auto_apply_threshold": null
+  },
+  "application": {
+    "mode": "automatic",
+    "cv_policy": "original_only",
+    "create_accounts": null
+  },
+  "search": {
+    "fallback_when": null
+  }
+}

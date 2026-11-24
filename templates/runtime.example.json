@@ -1,0 +1,7 @@
+{
+  "timezone": "UTC",
+  "browser_endpoint": "http://127.0.0.1:9224",
+  "chrome_path": null,
+  "linkedin_geo_ids": {},
+  "assessment_policy_version": "initial"
+}

@@ -1,0 +1,43 @@
+{
+  "platforms": [
+    {
+      "name": "linkedin",
+      "enabled": false,
+      "location": null,
+      "remote_locations": [],
+      "relocation_locations": [],
+      "posted_within": "week",
+      "search_queries": [],
+      "fallback_queries": []
+    },
+    {
+      "name": "remotive",
+      "enabled": false,
+      "search_queries_from": "linkedin",
+      "posted_within": "week"
+    },
+    {
+      "name": "weworkremotely",
+      "enabled": false,
+      "search_queries_from": "linkedin",
+      "feeds": [
+        "all"
+      ],
+      "posted_within": "week"
+    },
+    {
+      "name": "greenhouse",
+      "enabled": false,
+      "mode": "selected_employer_boards"
+    }
+  ],
+  "run": {
+    "collection_order": [
+      "linkedin",
+      "remotive",
+      "weworkremotely"
+    ],
+    "paginate": "all",
+    "trigger": "manual"
+  }
+}

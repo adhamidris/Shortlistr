@@ -1,0 +1,17 @@
+{
+  "name": null,
+  "email": null,
+  "phone": null,
+  "location": null,
+  "timezone": null,
+  "cv_path": null,
+  "languages": [],
+  "work_authorization": [],
+  "availability": {
+    "notice_period": null,
+    "open_to_relocation": null
+  },
+  "experience": [],
+  "evidence": [],
+  "unknowns": []
+}

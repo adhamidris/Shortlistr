@@ -1,0 +1,22 @@
+# Candidate data and credentials never belong in public history.
+/profile/
+/config/
+/secrets/
+/data/
+/runs/
+/ledger/
+/logs/
+/.venv/
+/.mcp.json
+/.codex/
+/.kimi-code/
+/.claude/settings.local.json
+/.playwright-mcp/
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
